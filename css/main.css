@@ -1,0 +1,235 @@
+/***** BASE STYLES *****/
+
+body {
+    
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#portfolio {
+    height: 1550px;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    color: #fa0075;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+#main-image, #portfolio, #about, #contact{
+    margin: 0 auto;
+    clear: both;
+
+}
+
+/***** HEADER *****/
+
+header {
+    height: auto;
+}
+
+h3 {
+    margin: 0;
+    padding: 45px 0px;
+}
+
+nav {
+    float: right;
+    padding: 45px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 0 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/***** MAIN-IMAGE *****/
+
+.main-image {
+    height: 700px;
+    background-image: url('../img/hero-background.png');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    position: relative;
+    padding: 250px 0 150px 0px;
+}
+
+h1 span {
+    color: #fa0075;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h2 {
+    padding: 0 0 60px 0;
+    margin: 60px 0;
+}
+
+.project-title {
+    font-weight: 700;
+}
+
+.info, .image {
+    height: 350px;
+    box-sizing: border-box;
+}
+
+#rogue, #recipe {
+    text-align: left;
+}
+
+#jubilee {
+    text-align: right;
+}
+
+#portfolio .title {
+    margin: 0;
+}
+
+#austen, #jubilee {
+    margin: 80px 0;
+}
+
+#pickings, #jubilee, #cards {
+    padding-right: 40px;
+}
+
+.image img {
+    width: 548px;
+    border: 1px solid #b7b7b7;
+    box-sizing: border-box;
+}
+
+#rogue, #austen, #recipe {
+    padding-left: 50px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-image: url('../img/about-me.png');
+    background-size: cover;
+}
+
+#about h2 {
+    margin-bottom: 50px;
+}
+
+#about p {
+    color: #1f202b;
+
+}
+
+#about p span {
+    font-weight: 700;
+}
+
+#about img {
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+    float: right;
+}
+
+/***** CONTACT *****/
+
+#contact h4 {
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    margin-bottom: 50px;
+}
+#contact h4, #meet p {
+    text-align: center;
+}
+
+#hire a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 60px;
+
+}
+
+#hire h4 {
+    margin-bottom: 40px;
+}
+
+#follow ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+#follow ul li {
+    display: inline-block;
+}
+
+#follow ul img {
+    background: none;
+    padding-left: 30px;
+}
+
+#github {
+    padding-bottom: 5px;
+}
+
+#copyright {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
