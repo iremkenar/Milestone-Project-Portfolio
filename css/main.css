@@ -8,18 +8,6 @@ body {
     font-size: 24px;
 }
 
-#portfolio {
-    height: 1550px;
-}
-
-#about {
-    height: 550px;
-}
-
-#contact {
-    height: 400px;
-}
-
 h2 {
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
@@ -38,6 +26,16 @@ h4 {
 
 /***** GRID *****/
 
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#developer, #navigation {
+    width: 650px;
+}
+
 .full-width {
     width: 1200px;
     margin: 0 auto;
@@ -47,7 +45,6 @@ h4 {
 .half-width {
     width: 600px;
     float: left;
-    box-sizing: border-box;
 }
 
 .third-width {
@@ -68,7 +65,7 @@ header {
 }
 
 h3 {
-    margin: 0;
+    margin: 0px;
     padding: 45px 0px;
 }
 
@@ -116,37 +113,37 @@ h1 span {
 /***** PORTFOLIO *****/
 
 #portfolio h2 {
-    padding: 0 0 60px 0;
-    margin: 60px 0;
-}
-
-.project-title {
-    font-weight: 700;
-}
-
-.info, .image {
-    height: 350px;
-    box-sizing: border-box;
-}
-
-#rogue, #recipe {
-    text-align: left;
-}
-
-#jubilee {
-    text-align: right;
+    margin: 40px 0;
 }
 
 #portfolio .title {
     margin: 0;
 }
 
-#austen, #jubilee {
-    margin: 80px 0;
+.rogue, .jubilee, .recipe {
+    padding: 50px 0;
 }
 
-#pickings, #jubilee, #cards {
-    padding-right: 40px;
+.title span {
+    font-weight: 700;
+}
+
+.rogue, .recipe {
+    text-align: left;
+}
+
+.jubilee {
+    text-align: right;
+}
+
+.rogue .info, .recipe .info {
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.jubilee .info {
+    box-sizing: border-box;
+    padding-right: 50px;
 }
 
 .image img {
@@ -155,31 +152,30 @@ h1 span {
     box-sizing: border-box;
 }
 
-#rogue, #austen, #recipe {
-    padding-left: 50px;
-}
-
 /***** ABOUT *****/
 
 #about {
     background-image: url('../img/about-me.png');
     background-size: cover;
+    margin-top: 50px;
 }
 
 #about h2 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-#about p {
+.me {
+    padding: 20px 0 50px 0;
+}
+.me p {
     color: #1f202b;
-
 }
 
-#about p span {
+.me p span {
     font-weight: 700;
 }
 
-#about img {
+.me img {
     height: 400px;
     width: 450px;
     object-fit: cover;
